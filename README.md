@@ -14,9 +14,9 @@ Now, you should see the following user interface.
 
 ![Example 1](https://raw.githubusercontent.com/stefan-wr/cropPy/master/screenshots/example1.png)
 
-Click the **Open Directory** button and select the directory in which the images you want to crop/resize are located.
+Click the **Open Directory** button and select the directory where the images you want to crop/resize are located.
 
-If CropPy finds supported images in the selected directory **(supported are JPG, PNG and BMP)**, they will be listed in console part of the UI.
+If CropPy finds supported images in the selected directory **(supported are JPG, PNG and BMP)**, they will be listed in the console part of the UI.
 
 The **Process Images** button changes its color to green like in the example screenshot below.
 
@@ -32,7 +32,7 @@ Start processing the images by clicking the **Process Images** button.
 The processed images will be saved in the same directory with their original filenames prefixed by `crop_`. If such processed images already exist in the directory they will be overwritten.
 
 ### Default Configuration
-The default values of the cropping coordinates, resize factor, initial directory and supported image formats can be changed in the top of the script:
+The default values of the cropping coordinates, resize factor, initial directory and supported image formats can be changed at the top of the script:
 
 ```python
 # Default Configuration
